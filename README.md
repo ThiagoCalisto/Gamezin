@@ -6,7 +6,7 @@ Project create a game with Pygame
 
 Documentation:
 
-<href=https://www.pygame.org/wiki/GettingStarted>Pygame Documentation</href>
+[Pygame Documentation](https://www.pygame.org/wiki/GettingStarted)
 
 to initiate the game you have to install the pygame by pip.
 
