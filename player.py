@@ -8,7 +8,7 @@ class Player(pygame.sprite.Sprite):
         super().__init__(groups)
         self.image = pygame.image.load('./player/player.png').convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
-        self.hitbox = self.rect.inflate(-36,-26)
+        self.hitbox = self.rect.inflate(-40,-26)
 
         self.direction = pygame.math.Vector2()
         self.speed = 5
